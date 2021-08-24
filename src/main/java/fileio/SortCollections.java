@@ -18,13 +18,13 @@ public class SortCollections {
         Scanner input = new Scanner(new File(filename));
         n = input.nextInt();
         array = new int[n];
-        for (int i = 0; i < 10; i++) {
+        for (int i = 0; i < this.n; i++) {
             array[i] = input.nextInt();
         }
     }
 
     public void display(int[] ar) {
-        for (int i = 0; i < 10; i++) {
+        for (int i = 0; i < this.n; i++) {
             output.print(ar[i]);
             output.print(' ');
         }
