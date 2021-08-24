@@ -1,13 +1,11 @@
-package FileIO;
+package fileio;
 
 import java.io.*;
 import java.util.*;
-import java.util.logging.Level;
-import java.util.logging.Logger;
 
 public class SortCollections {
 
-    public PrintWriter output;
+    private PrintWriter output;
     private int[] array;
 
     public SortCollections(String filename) throws FileNotFoundException {

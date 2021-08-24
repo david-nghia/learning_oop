@@ -1,4 +1,4 @@
-package Basic;
+package basic;
 
 
 public class Rectangle {
@@ -50,8 +50,8 @@ public class Rectangle {
     public static void main(String[] args) {
         Rectangle a = new Rectangle(5, 6);
         a.setColor("Red");
-        System.out.println("Màu s?c: " + a.getColor());
-        System.out.println("Di?n tích: " + a.findArea());
+        System.out.println("Mï¿½u s?c: " + a.getColor());
+        System.out.println("Di?n tï¿½ch: " + a.findArea());
         System.out.println("Chu vi: " + a.findPerimeter());
     }
     
