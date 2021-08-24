@@ -1,3 +1,5 @@
+package Basic;
+
 
 public class Rectangle {
     private double width, height;
