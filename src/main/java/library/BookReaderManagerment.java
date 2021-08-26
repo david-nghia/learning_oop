@@ -1,13 +1,17 @@
 package library;
 
-public class BookReaderManagement {
+public class BookReaderManagerment {
     private Book book;
     private Reader reader;
     private int numOfBorrow;
     private String state;
     private int totalBorrowed;
 
-    public BookReaderManagement(Book book, Reader reader, int numOfBorrow, String state, int totalBorrowed) {
+    public BookReaderManagerment() {
+
+    }
+
+    public BookReaderManagerment(Book book, Reader reader, int numOfBorrow, String state, int totalBorrowed) {
         this.book = book;
         this.reader = reader;
         this.numOfBorrow = numOfBorrow;

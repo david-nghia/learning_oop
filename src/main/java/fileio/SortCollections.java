@@ -87,7 +87,7 @@ public class SortCollections {
         return ar;
     }
 
-    public int search(int x) {
+    public int search(int x, int[] ar) {
         int size = this.n;
         for (int i = 0; i < size; i++) {
             if (this.array[i] == x) {
